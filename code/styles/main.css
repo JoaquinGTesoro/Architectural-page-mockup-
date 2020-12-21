@@ -220,4 +220,158 @@ main .section-2 .years .text-years {
 main .section-2 .image img {
   width: 25vw;
 }
+
+main .section-3 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .section-3 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .section-3 header nav {
+  margin-left: 10em;
+}
+
+main .section-3 header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section-3 header nav ul button {
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin-left: 1em;
+}
+
+main .section-3 header nav ul button:hover {
+  cursor: pointer;
+  color: #bc6455;
+}
+
+main .section-3 header nav ul li {
+  list-style: none;
+}
+
+main .section-3 .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 2em;
+}
+
+main .section-3 .images .overlay-img {
+  width: 30vw;
+  height: 50vh;
+  background-color: #bc6455;
+  z-index: 99;
+}
+
+main .section-3 .images .overlay-img img {
+  width: 30vw;
+  height: 50vh;
+  display: block;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+main .section-3 .images .overlay-img .text-1 {
+  text-transform: capitalize;
+  position: absolute;
+  margin-top: -8em;
+  margin-left: 2em;
+  color: white;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+main .section-3 .images .overlay-img .info {
+  display: none;
+  color: white;
+  margin-top: -13em;
+  margin-left: 2em;
+  margin-right: 2em;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+main .section-3 .images .overlay-img .subtext {
+  position: absolute;
+  margin-top: -2em;
+  margin-left: 2em;
+  color: white;
+}
+
+main .section-3 .images .overlay-img .subtext a:hover {
+  color: #000000;
+}
+
+main .section-3 .images .overlay-img:hover img {
+  opacity: 0.5;
+}
+
+main .section-3 .images .overlay-img:hover .text-1 {
+  margin-top: -20em;
+}
+
+main .section-3 .images .overlay-img:hover .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+}
+
+main .section-3 .images .overlay-img:hover .subtext {
+  margin-top: 1em;
+}
+
+main .section-3 .selector {
+  text-align: center;
+}
+
+main .section-3 .selector button {
+  background: none;
+  border: none;
+}
+
+main .section-3 .selector button i {
+  color: #6b6b6b;
+}
+
+main .section-3 .selector button i:hover {
+  color: #bc6455;
+}
+
+main .section-3 .selector button .first-select {
+  color: #bc6455;
+}
+
+main .section-3 .selector button:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
