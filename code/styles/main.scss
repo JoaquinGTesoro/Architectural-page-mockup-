@@ -336,4 +336,166 @@ main {
             }
         }
     }
+
+    .section-4 {
+        .background-polka {
+            background-color: #E5E5F7;
+            background-image: radial-gradient(#a4a4a4 0.35000000000000003px, #E5E5F7 0.35000000000000003px);
+            background-size: 7px 7px;
+            opacity: 0.4;
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            z-index: -1;
+        }
+
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin: -5em 0 5em 0;
+
+            .toggle {
+                button {
+                    background: none;
+                    border: none;
+                    color: #6b6b6b;
+                    font-size: 1.5em;
+
+                    &:hover {
+                        color: #bc6455;
+                        cursor: pointer;
+                    }
+                }
+
+                .left-btn {
+                    margin-left: 0.5em;
+                }
+            }
+        }
+
+        .img-container {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 1em auto;
+            position: absolute;
+            margin-top: -3em; margin-left: 2em;
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;  
+            }
+        }
+
+        .reviews {
+            display: flex;
+            justify-content: space-between;
+
+            .review-1, .review-2 {
+                width: 40vw;
+                height: 40vh;
+                background-color: white;
+            }
+
+            .review-2 {
+                margin-left: 3em;
+            }
+
+            .info {
+                margin: 3em 0 0 2em;
+
+                .decoration-quotations {
+                    font-size: 3em;
+                    color: #bc6455;
+                    position: absolute;
+                    margin: -1.5em 0 0 8em;
+                }
+
+                .personal-info {
+                    margin-top: 5em;
+
+                    .name {
+                        font-weight: 500;
+                        color: #6b6b6b;
+                    }
+
+                    .job {
+                        color: #6b6b6b;
+                    }
+                }
+
+                .review {
+                    margin-top: 1em;
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3em 1.5em;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            width: 3em;           
+        }
+
+        p {
+            font-family: 'Playfair Display';
+            font-size: 1.3em;
+        }
+    }
+    
+    .rights {
+        display: inherit;
+        flex-direction: column;
+    }
+
+    .legal-info {
+        display: inherit;
+        flex-direction: column;
+    }
+
+    .us {
+        display: inherit;
+        flex-direction: column;
+    }
+
+    .social-media {
+        ul {
+            display: flex;
+            
+            li {
+                list-style: none;
+                margin-left: 1em;
+            }
+        }
+    }
+
+    h3 {
+        color: #bc6455;
+    }
+
+    a {
+        text-decoration: none;
+    
+        &:hover {
+            color: #bc6455;
+        }
+    }
 }
