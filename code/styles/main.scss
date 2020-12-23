@@ -333,6 +333,10 @@ main {
                 &:hover {
                     cursor: pointer;
                 }
+                
+                &:focus {
+                    outline: none;
+                }
             }
         }
     }
@@ -370,6 +374,11 @@ main {
                     &:hover {
                         color: #bc6455;
                         cursor: pointer;
+                    }
+
+                    &:focus {
+                        color: #c0351d;
+                        outline: none;
                     }
                 }
 
